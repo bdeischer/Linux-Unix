@@ -1,6 +1,9 @@
 [ -f $file ]
 echo "file does not exist"
 
+[ ! -f $file ]
+echo "file exists"
+
 [ -a $file ]
 echo "file does not exist"
 
