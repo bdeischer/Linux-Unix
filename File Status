@@ -1,0 +1,11 @@
+[ -f $file ]
+echo "file does not exist"
+
+[ -a $file ]
+echo "file does not exist"
+
+[ -s $file ]
+echo "file is zero in size "
+
+[ -r $file ]
+echo "file is not readable"
